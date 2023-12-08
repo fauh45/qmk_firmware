@@ -156,7 +156,7 @@ bool matrix_scan_custom(matrix_row_t current_matrix[]) {
 
     fix_ghosting_issue(current_matrix);
 
-    // fix_encoder_action(current_matrix);
+    fix_encoder_action(current_matrix);
 
     return has_matrix_changed(current_matrix);
 }
