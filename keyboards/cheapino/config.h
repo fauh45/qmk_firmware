@@ -27,7 +27,7 @@
 
 
 // Pick good defaults for enabling homerow modifiers
-#define TAPPING_TERM 230
+#define TAPPING_TERM 200
 
 
 #define WS2812_DI_PIN GP16 // The pin connected to the data pin of the LEDs

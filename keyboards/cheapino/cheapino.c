@@ -45,7 +45,6 @@ void keyboard_post_init_user(void) {
 // Make the builtin RGB led show different colors per layer:
 // This seemed like a good idea but turned out pretty annoying,
 // to me at least... Uncomment the lines below to enable
-/*
 uint8_t get_hue(uint8_t layer) {
     switch (layer) {
         case 6:
@@ -72,4 +71,3 @@ layer_state_t layer_state_set_user(layer_state_t state) {
     rgblight_sethsv(hue, sat, val);
     return state;
 }
-*/
